@@ -1,6 +1,5 @@
 package com.example.booknest.ui
 
-import android.annotation.SuppressLint
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -17,7 +16,6 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.LocationOn
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material3.Card
@@ -50,8 +48,8 @@ import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import coil.compose.AsyncImage
 import com.example.booknest.R
-import com.example.booknest.data.AppUiEvent
 import com.example.booknest.data.AppState
+import com.example.booknest.data.AppUiEvent
 import com.example.booknest.data.Place
 import com.example.booknest.ui.theme.RobotoCondensedBold
 import com.example.booknest.ui.theme.WorkSansBold

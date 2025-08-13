@@ -25,7 +25,6 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.DateRange
 import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.LocationOn
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material3.AlertDialog
@@ -72,8 +71,8 @@ import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import coil.compose.AsyncImage
 import com.example.booknest.R
-import com.example.booknest.data.AppUiEvent
 import com.example.booknest.data.AppState
+import com.example.booknest.data.AppUiEvent
 import com.example.booknest.data.Place
 import com.example.booknest.ui.theme.RobotoCondensed
 import com.example.booknest.ui.theme.RobotoCondensedBold
